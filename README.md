@@ -9,9 +9,10 @@
 + UnityVRS，一个使用该插件的样例项目，其中UnityVRS/Asset/VariableRateShading下包含了Unity内调用VRS native plugin所需的.cs文件。
 
 ## 支持系统
-+ 使用DX11的Unity项目
-+ 英伟达图灵架构的GPU. (Nvidia 2000 Series or later)
-+ 目前只支持Unity内置渲染管线
++ Unity projects using DX11.
++ Nvidia Turing based GPU. (Nvidia 2000 Series or later)
++ Graphic Card Driver：430 and later
++ Only Unity Built-in pipeline is supported currently.
 
 ## 使用
 1. 使用VS2022打开D11VRSNativePlugin项目，编译为.dll动态库。
